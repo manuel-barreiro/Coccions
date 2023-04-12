@@ -71,6 +71,11 @@
     font-size: 1rem;
   }
 
+  .orangeFont {
+    color: #e5a791;
+    font-weight:550;
+  }
+
   /* SWIPER */
 
   swiper-container {
@@ -96,5 +101,34 @@
 
   :root {
     --swiper-theme-color: white;
+}
+
+/* INTRO */
+
+#intro {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  margin-top: 5vh;
+}
+
+#introTexto{
+  flex-basis: 60%;
+  background-color: #ecdbca;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh;
+  text-align: justify;
+}
+
+#introImageSection {
+  flex-basis: 30%;
+}
+
+#introImageSection > img {
+  max-width: 100%;
+  height: auto;
 }
   
