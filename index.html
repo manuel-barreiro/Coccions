@@ -10,7 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;0,800;0,900;1,200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 </head>
     <body>
         
@@ -30,35 +29,19 @@
             </nav>
         </header>
 
-        <section class="container">
-            <div class="swiper">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                  <!-- Slides -->
-                    <div class="swiper-slide"><img src="assets/swiperImages/Slide1.JPG" alt=""></div>
-                    <div class="swiper-slide"><img src="assets/swiperImages/Slide2.JPG" alt=""></div>
-                    <div class="swiper-slide"><img src="assets/swiperImages/Slide3.JPG" alt=""></div>
-                    <div class="swiper-slide"><img src="assets/swiperImages/Slide4.JPG" alt=""></div>
-                    <div class="swiper-slide"><img src="assets/swiperImages/Slide5.JPG" alt=""></div>
-                    <div class="swiper-slide"><img src="assets/swiperImages/Slide6.JPG" alt=""></div>
-                    <div class="swiper-slide"><img src="assets/swiperImages/Slide7.JPG" alt=""></div>
-                    <div class="swiper-slide"><img src="assets/swiperImages/Slide8.jpg" alt=""></div>
-                  ...
-                </div>
+        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" centered-slides="true" autoplay-delay="3000" autoplay-disable-on-interaction="false">
+            <swiper-slide><img src="assets/swiperImages/Slide1.JPG" alt=""></swiper-slide>
+            <swiper-slide><img src="assets/swiperImages/Slide2.JPG" alt=""></swiper-slide>
+            <swiper-slide><img src="assets/swiperImages/Slide3.JPG" alt=""></swiper-slide>
+            <swiper-slide><img src="assets/swiperImages/Slide4.JPG" alt=""></swiper-slide>
+            <swiper-slide><img src="assets/swiperImages/Slide5.JPG" alt=""></swiper-slide>
+            <swiper-slide><img src="assets/swiperImages/Slide6.JPG" alt=""></swiper-slide>
+            <swiper-slide><img src="assets/swiperImages/Slide7.JPG" alt=""></swiper-slide>
+            <swiper-slide><img src="assets/swiperImages/Slide8.jpg" alt=""></swiper-slide>
+        </swiper-container>
 
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-              
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-              
-            </div>
-
-        </section>
-
-        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-        <script src="js/swiper.js"></script> 
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
         <script src="js/main.js"></script>
+   
     </body>
 </html>
