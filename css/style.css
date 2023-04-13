@@ -24,6 +24,19 @@
     font-size: 16px;
   }
 
+  .alineacion {
+    margin: 5vh 5vh 0 5vh;
+  }
+
+  .negrita {
+    font-weight: bold;
+  }
+
+  .orangeFont {
+    color: #e5a791;
+    font-weight:550;
+  }
+
   /* HEADER */
 
   header, nav {
@@ -71,11 +84,6 @@
     font-size: 1rem;
   }
 
-  .orangeFont {
-    color: #e5a791;
-    font-weight:550;
-  }
-
   /* SWIPER */
 
   swiper-container {
@@ -107,13 +115,12 @@
 
 #intro {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: stretch;
-  margin-top: 5vh;
 }
 
 #introTexto{
-  flex-basis: 60%;
+  flex-basis: 65%;
   background-color: #ecdbca;
   display: flex;
   flex-direction: column;
@@ -131,4 +138,133 @@
   max-width: 100%;
   height: auto;
 }
-  
+
+/* PRODUCTOS */
+
+#productos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#productos > div {
+  flex-basis: 18%;
+}
+
+#productos > div > img {
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+/* CONTACTO */
+
+#contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ecdbca;
+  margin-top: 5vh;
+  padding: 10vh 10vh 10vh 10vh;
+}
+
+#contacto > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+div#segundoContacto {
+  margin: 4vh;
+}
+
+.parrafoContacto {
+  margin: 0.5em;
+}
+
+section#formularioContacto {
+  display: flex;
+  height: 70vh;
+  width: 80vw;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CONTACT FORM */
+
+form {
+  height: 40vh;
+  width: 50vw;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  border: none;
+  border-bottom: 1px solid #000;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+input[type="text"]:placeholder,
+input[type="email"]:placeholder,
+input[type="tel"]:placeholder,
+textarea:placeholder {
+  color: #ccc;
+  font-style: italic;
+}
+
+input[type="submit"] {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+/* Estilos para la disposición de los campos */
+
+#mensaje {
+  height: 100px;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-row > div {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.form-row > div:last-child {
+  margin-right: 0;
+}
+
+#botonEnviar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 480px) {
+  .form-row > div {
+    flex: 100%;
+    margin-right: 0;
+  }
+}

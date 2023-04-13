@@ -41,7 +41,7 @@
             <swiper-slide><img src="assets/swiperImages/Slide8.jpg" alt=""></swiper-slide>
         </swiper-container>
 
-        <section id="intro">
+        <section id="intro" class="alineacion">
                 <section id="introTexto">
                     <h1>HECHO CON EL <span class="orangeFont">CORAZÓN</span></h1>
                     <p>En Coccions creemos que la pasión y la dedicación son los ingredientes clave para preparar los mejores postres. Es por eso que cada una de nuestras recetas es cocinada con amor y el cuidado que merece. Nos esforzamos por utilizar ingredientes frescos y de alta calidad para que cada bocado sea una experiencia inolvidable.</p>
@@ -52,8 +52,61 @@
             <section id="introImageSection">
                 <img id="introImage" src="assets/intro.JPG" alt="love image">
             </section>
-
         </section>
+
+        <section id="productos" class="alineacion">
+            <div>
+                <img src="assets/productos/tortas.JPG" alt="tortas">
+            </div>
+            <div>
+                <img src="assets/productos/tortasEspeciales.JPG" alt="tortasEspeciales">
+            </div>
+            <div>
+                <img src="assets/productos/combos.JPG" alt="combos">
+            </div>
+            <div>
+                <img src="assets/productos/cuadraditos.JPG" alt="cuadraditos">
+            </div>
+            <div>
+                <img src="assets/productos/tortas.JPG" alt="budines">
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h1 class="orangeFont">CONTACTANOS</h1>
+    
+            <div id="primerContacto">
+                <p class="parrafoContacto">Escribinos y hacenos tu pedido :)</p>
+                <p class="parrafoContacto">Los pedidos se toman con mínimo <span class="negrita">24 horas de anticipación</span></p>
+            </div>
+    
+            <div id="segundoContacto">
+                <p class="parrafoContacto negrita">+54  11 3209 5417 &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; coccions@gmail.com </p>
+                <p class="parrafoContacto">Pick-up disponible en Barrio Ayres del Pilar</p>
+                <p class="parrafoContacto">Pilar, Buenos Aires, Argentina</p>
+            </div>
+    
+            <section id="formularioContacto">
+                <form>
+                    <div class="form-row">
+                      <div>
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                      </div>
+                      <div>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                      </div>
+                    </div>
+                    <div>
+                      <input type="tel" id="celular" name="celular" placeholder="Celular" required>
+                    </div>
+                    <div>
+                      <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
+                    </div>
+                    <div id="botonEnviar">
+                      <input type="submit" value="ENVIAR">
+                    </div>
+                  </form>
+            </section>
 
         <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
         <script src="js/main.js"></script>
