@@ -37,6 +37,13 @@
     font-weight:550;
   }
 
+  .whiteFont {
+    color: whitesmoke;
+    font-weight:550;
+  }
+
+  
+
   /* HEADER */
 
   header, nav {
@@ -128,6 +135,7 @@
   align-items: center;
   padding: 10vh;
   text-align: justify;
+  color: #e5a791;
 }
 
 #introImageSection {
@@ -176,6 +184,7 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  color: #e5a791;;
 }
 
 div#segundoContacto {
