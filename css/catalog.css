@@ -1,4 +1,4 @@
-#catalog {
+ #catalog {
     margin-top: 15vh;
     padding: 2% 14%;
     display: flex;
@@ -7,6 +7,15 @@
     flex-wrap: wrap;
   }
   
+  #catalogoCuatroItems {
+    margin-top: 15vh;
+    padding: 2% 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
   .item {
     position: relative;
     flex-basis: 30%;
@@ -21,6 +30,17 @@
   .item > * {
     flex-basis: 50%;
   }
+
+  .CuatroItems {
+    position: relative;
+    flex-basis: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+}
 
   .imagenProducto img {
     width: 100%;

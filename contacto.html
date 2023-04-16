@@ -12,43 +12,58 @@
     <link rel="stylesheet" href="css/normalize.css">
 </head>
 <body>
+    <header>
+      <nav>
+          <div id="branding">
+              <img src="assets/coccionsLogo.png" alt="logo">
+          </div>
+          <ul>
+              <li><a class="orangeFont" href="index.html">Home</a></li>
+              <li><a class="pinkFont" href="tortas.html">Tortas</a></li>
+              <li><a class="pinkFont" href="tortasEspeciales.html">Tortas especiales</a></li>
+              <li><a class="pinkFont" href="combos.html">Combos</a></li>
+              <li><a class="pinkFont" href="cuadraditos.html">Cuadraditos</a></li>
+              <li><a class="pinkFont" href="budines.html">Budines</a></li>
+              <li><a class="pinkFont" href="contacto.html">Contacto</a></li>
+          </ul>
+      </nav>
+    </header>
+    
     <section id="contacto">
-        <h1 class="orangeFont">CONTACTANOS</h1>
+      <h1 class="whiteFont">CONTACTANOS</h1>
 
-        <div id="primerContacto">
-            <p class="parrafoContacto">Escribinos y hacenos tu pedido :)</p>
-            <p class="parrafoContacto">Los pedidos se toman con mínimo <span class="negrita">24 horas de anticipación</span></p>
-        </div>
+      <div id="primerContacto">
+          <p class="parrafoContacto">Escribinos y hacenos tu pedido :)</p>
+          <p class="parrafoContacto">Los pedidos se toman con mínimo <span class="negrita">24 horas de anticipación</span></p>
+      </div>
 
-        <div id="segundoContacto">
-            <p class="parrafoContacto negrita">+54  11 3209 5417 &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; coccions@gmail.com </p>
-            <p class="parrafoContacto">Pick-up disponible en Barrio Ayres del Pilar</p>
-            <p class="parrafoContacto">Pilar, Buenos Aires, Argentina</p>
-        </div>
+      <div id="segundoContacto">
+          <p class="parrafoContacto negrita"><a class="orangeFont" target="_blank" href="https://www.instagram.com/coccions/"><i class="fa-brands fa-instagram"></i> COCCIONS</a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; +54 9 11 3209-5417 </p>
+          <p class="parrafoContacto">Pick-up disponible en Barrio Ayres del Pilar</p>
+          <p class="parrafoContacto">Pilar, Buenos Aires, Argentina</p>
+      </div>
 
-        <section id="formularioContacto">
-            <form>
-                <div class="form-row">
-                  <div>
-                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
-                  </div>
-                  <div>
-                    <input type="email" id="email" name="email" placeholder="Email" required>
-                  </div>
+      <section id="formularioContacto">
+          <form>
+              <div class="form-row">
+                <div>
+                  <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
                 </div>
                 <div>
-                  <input type="tel" id="celular" name="celular" placeholder="Celular" required>
+                  <input type="email" id="email" name="email" placeholder="Email" required>
                 </div>
-                <div>
-                  <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
-                </div>
-                <div id="botonEnviar">
-                  <input type="submit" value="ENVIAR">
-                </div>
-              </form>
-        </section>
-
-
+              </div>
+              <div>
+                <input type="tel" id="celular" name="celular" placeholder="Celular" required>
+              </div>
+              <div>
+                <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
+              </div>
+              <div id="botonEnviar">
+                <input type="submit" value="ENVIAR">
+              </div>
+            </form>
+      </section>
     </section>
 </body>
 </html>
