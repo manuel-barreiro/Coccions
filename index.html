@@ -11,23 +11,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;0,800;0,900;1,200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/cellphone.css">
 </head>
     <body>
         
         <header>
             <nav>
-                <div id="branding">
+                <div id="branding" class="nav-branding">
                     <img src="assets/coccionsLogo.png" alt="logo">
                 </div>
-                <ul>
-                    <li><a class="orangeFont" href="index.html">Home</a></li>
-                    <li><a class="pinkFont" href="tortas.html">Tortas</a></li>
-                    <li><a class="pinkFont" href="tortasEspeciales.html">Tortas especiales</a></li>
-                    <li><a class="pinkFont" href="combos.html">Combos</a></li>
-                    <li><a class="pinkFont" href="cuadraditos.html">Cuadraditos</a></li>
-                    <li><a class="pinkFont" href="budines.html">Budines</a></li>
-                    <li><a class="pinkFont" href="contacto.html">Contacto</a></li>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a class="orangeFont nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="pinkFont nav-link" href="tortas.html">Tortas</a></li>
+                    <li class="nav-item"><a class="pinkFont" href="tortasEspeciales.html">Tortas especiales</a></li>
+                    <li class="nav-item"><a class="pinkFont nav-link" href="combos.html">Combos</a></li>
+                    <li class="nav-item"><a class="pinkFont nav-link" href="cuadraditos.html">Cuadraditos</a></li>
+                    <li class="nav-item"><a class="pinkFont nav-link" href="budines.html">Budines</a></li>
+                    <li class="nav-item"><a class="pinkFont nav-link" href="contacto.html">Contacto</a></li>
                 </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
             </nav>
         </header>
 
@@ -47,7 +53,7 @@
                     <h1>HECHO CON EL <span class="whiteFont">CORAZÓN</span></h1>
                     <p>En COCCIONS creemos que la pasión y la dedicación son los ingredientes clave para preparar los mejores postres. Es por eso que cada una de nuestras recetas es cocinada con amor y el cuidado que merece. Nos esforzamos por utilizar ingredientes frescos y de alta calidad para que cada bocado sea una experiencia inolvidable.</p>
 
-                     <p> Desde nuestros clásicas tortas hasta nuestras creaciones más innovadoras, en COCCIONS vas a encontrar el sabor casero y la calidad que buscas. ¡Probá nuestros dulces y enamorate de la pasión que le ponemos a cada mordisco!</p>
+                     <p id="secondPar"> Desde nuestros clásicas tortas hasta nuestras creaciones más innovadoras, en COCCIONS vas a encontrar el sabor casero y la calidad que buscas. ¡Probá nuestros dulces y enamorate de la pasión que le ponemos a cada mordisco!</p>
                 </section>
 
             <section id="introImageSection">
@@ -122,7 +128,7 @@
             </div>
     
             <div id="segundoContacto">
-                <p class="parrafoContacto negrita"><a class="orangeFont" target="_blank" href="https://www.instagram.com/coccions/"><i class="fa-brands fa-instagram"></i> COCCIONS</a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; +54 9 11 3209-5417 </p>
+                <p class="parrafoContacto negrita"><a class="orangeFont" target="_blank" href="https://www.instagram.com/coccions/"><i class="fa-brands fa-instagram"></i> COCCIONS</a> &nbsp; | &nbsp; 11 3209-5417 </p>
                 <p class="parrafoContacto">Pick-up disponible en Barrio Ayres del Pilar</p>
                 <p class="parrafoContacto">Pilar, Buenos Aires, Argentina</p>
             </div>

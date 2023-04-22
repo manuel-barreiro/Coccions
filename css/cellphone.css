@@ -1,0 +1,124 @@
+.hamburger{
+    display: none;
+    cursor: pointer;
+  }
+
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: black;
+}
+
+  @media(max-width:1024px){
+
+    header, nav {
+      height: 10vh;
+    }
+	
+    .hamburger{
+      display: block;
+      flex-basis: 20%;
+      z-index: 2000;
+      padding-right: 1em;
+    }
+  
+    .hamburger.active .bar:nth-child(2){
+      opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+      transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+      transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+      display: flex;
+      background-color: white;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0;
+      padding: 1.3rem 0;
+      flex-basis: 100%;
+      position: fixed;
+      height: 50vh;
+      top: -100%;
+      gap: 25px;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      transition: 1s;
+    }
+
+    nav > #branding{
+      flex-basis: 50%;
+      justify-content: flex-start;
+      z-index: 1001;
+      height: 100%;
+    }
+
+    .nav-menu.active{
+      left: 0;
+      box-shadow: 0px 4px 4px rgba(19, 20, 20, 0.6);
+      top: 9vh;
+      transition: 1s;
+    }
+
+    swiper-container {
+      margin-top: 10vh;
+    }
+
+    #intro {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .alineacion {
+      margin: 2vh 2vh 0 2vh;
+    }
+
+    #secondPar {
+      display: none;
+    }
+
+    #introTexto {
+      flex-basis: 100%;
+      padding: 7vh;
+    }
+
+    #introImageSection{
+      display: none;
+    }
+
+    #contacto {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #ecdbca;
+      margin-top: 7vh;
+      padding: 5vh;
+    }
+
+    div#segundoContacto {
+      margin: 2vh;
+    }
+
+    section#formularioContacto {
+      display: flex;
+      height: 50vh;
+      width: 80vw;
+      background-color: white;
+      justify-content: center;
+      align-items: center;
+    }
+    
+	
+
+  }
