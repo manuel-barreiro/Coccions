@@ -80,7 +80,7 @@
     }
 
     .alineacion {
-      margin: 2vh 2vh 0 2vh;
+      margin: 6vh 2vh 0 2vh;
     }
 
     #secondPar {
@@ -110,6 +110,14 @@
       margin: 2vh;
     }
 
+    #tranding {
+      display: block;
+    }
+
+    #productos {
+      display: none;
+    }
+
     section#formularioContacto {
       display: flex;
       height: 50vh;
@@ -117,6 +125,38 @@
       background-color: white;
       justify-content: center;
       align-items: center;
+    }
+
+    /* Cambiar el tamaño de fuente de los placeholders para todos los navegadores */
+
+    /* Para Google Chrome, Safari y Microsoft Edge */
+    ::-webkit-input-placeholder {
+      font-size: 1.3rem;
+    }
+
+    /* Para Mozilla Firefox */
+    ::-moz-placeholder {
+      font-size: 1.3rem;
+      opacity: 1;
+    }
+
+    /* Para Internet Explorer */
+    :-ms-input-placeholder {
+      font-size: 1.3rem; 
+    }
+
+    /* Para Microsoft Edge Legacy */
+    :-ms-input-placeholder {
+      font-size: 1.3rem; 
+    }
+
+    /* Para cualquier otro navegador que admita el selector no-prefijado */
+    ::placeholder {
+      font-size: 1.3rem;
+    }
+
+    input[type="submit"] {
+      font-size: 1.3rem;
     }
     
 	

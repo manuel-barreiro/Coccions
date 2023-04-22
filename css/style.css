@@ -154,6 +154,10 @@
 
 /* PRODUCTOS */
 
+#tranding {
+  display: none;
+}
+
 #productos {
   display: flex;
   flex-direction: row;
