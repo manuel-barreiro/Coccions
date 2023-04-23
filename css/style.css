@@ -252,9 +252,6 @@ text-transform: uppercase;
 top: 80%;
 }
 
-/* TEXT OVER IMG ON HOVER */
-
-
 /* CONTACTO */
 
 #contacto {
@@ -311,7 +308,6 @@ input[type="tel"],
 textarea {
   border: none;
   border-bottom: 1px solid #000;
-  font-size: 16px;
   margin-bottom: 20px;
   padding: 10px;
   width: 100%;
@@ -329,7 +325,6 @@ input[type="submit"] {
   background-color: white;
   border: none;
   cursor: pointer;
-  font-size: 16px;
   padding: 10px 20px;
 }
 

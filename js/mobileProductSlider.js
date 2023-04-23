@@ -19,3 +19,20 @@ var TrandingSlider = new Swiper('.tranding-slider', {
       prevEl: '.swiper-button-prev',
     }
   });
+
+
+const productCard = document.getElementById('tortasCard');
+
+productCard.addEventListener('click', function() {
+  window.location.href = 'tortas.html';
+  console.log("hice click");
+});
+productCard.addEventListener('touchstart', function() {
+  window.location.href = 'tortas.html';
+  console.log("hice click");
+});
+productCard.addEventListener('touchstart', function(e) {
+  e.preventDefault();
+  window.location.href = 'tortas.html';
+  console.log("hice click");
+});

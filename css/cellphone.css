@@ -15,6 +15,17 @@
 
   @media(max-width:1024px){
 
+    html {
+      font-size: 72.5%;
+      font-family: "Montserrat", sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-size: 1.3rem;
+      background: var(--bg);
+    }
+
     header, nav {
       height: 10vh;
     }
@@ -24,6 +35,10 @@
       flex-basis: 20%;
       z-index: 2000;
       padding-right: 1em;
+    }
+
+    .hamburger > .bar {
+      background-color: #e5a791;
     }
   
     .hamburger.active .bar:nth-child(2){
@@ -68,6 +83,11 @@
       top: 9vh;
       transition: 1s;
     }
+
+    nav > ul > li > a {
+      text-decoration: none;
+      font-size: 1.5rem;
+  }
 
     swiper-container {
       margin-top: 10vh;
@@ -118,6 +138,14 @@
       display: none;
     }
 
+    #catalog > .item {
+      flex-basis: 100%;
+    }
+
+    #catalogoCuatroItems > .item {
+      flex-basis: 100%;
+    }
+
     section#formularioContacto {
       display: flex;
       height: 50vh;
@@ -157,6 +185,7 @@
 
     input[type="submit"] {
       font-size: 1.3rem;
+      color: black;
     }
     
 	
