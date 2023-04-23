@@ -1,9 +1,9 @@
 # Coccions Webpage
-Website developed for Coccions, a bakery business based in Argentina.
+Responsive design website developed for Coccions, a bakery business based in Argentina. Adaptive design for small, medium and large viewports.
 
 <img width="949" alt="image" src="https://user-images.githubusercontent.com/103281038/233858471-0d74504f-6073-4374-94f8-110613aad33f.png">
 
-<img width="947" alt="image" src="https://user-images.githubusercontent.com/103281038/233858488-e917c61f-d49e-4392-b39e-9a060248920e.png">
+<img width="945" alt="image" src="https://user-images.githubusercontent.com/103281038/233858507-ca7f77ee-5d8a-4a81-a07d-9190d5f45eba.png">
 
 ## How It's Made:
 
