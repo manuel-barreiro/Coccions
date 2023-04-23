@@ -185,9 +185,44 @@
 
     input[type="submit"] {
       font-size: 1.3rem;
-      color: black;
+      color: #e5a791;
     }
     
-	
+  }
 
+  @media(max-width:500px){
+    .nav-menu {
+      display: flex;
+      background-color: white;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      margin: 0;
+      padding: 1.3rem 0;
+      flex-basis: 100%;
+      position: fixed;
+      height: 48vh;
+      top: -100%;
+      gap: 25px;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      transition: 1s;
+    }
+
+    nav > ul > li {
+      list-style: none;
+      margin-left: 2.2em;
+  }
+  }
+
+
+  /* Adaptación del logo para tablets */
+  @media (min-width: 750px) and (max-width: 1024px)  {
+    nav > #branding {
+    flex-basis: 35%;
+    justify-content: flex-start;
+    z-index: 1001;
+    height: 100%;
+    }
   }
