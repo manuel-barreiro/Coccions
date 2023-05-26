@@ -1,5 +1,5 @@
 # Coccions Webpage
-Responsive design website developed for Coccions, a bakery business based in Argentina. Adaptive design for small, medium and large viewports. 
+Responsive design website developed for Coccions, a bakery business based in Argentina. Adaptive design for small, medium and large viewpots. 
 
 Visit https://coccions.com.ar/
 
